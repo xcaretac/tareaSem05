@@ -12,9 +12,11 @@
 		B9DE10771CB5CAD400BE0335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DE10751CB5CAD400BE0335 /* Main.storyboard */; };
 		B9DE10791CB5CAD400BE0335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DE10781CB5CAD400BE0335 /* Assets.xcassets */; };
 		B9DE107C1CB5CAD400BE0335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DE107A1CB5CAD400BE0335 /* LaunchScreen.storyboard */; };
+		B9DE10841CB5CB2D00BE0335 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DE10831CB5CB2D00BE0335 /* Datos.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9961DD61CB61997006A6A8A /* PruebaColores.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PruebaColores.playground; sourceTree = "<group>"; };
 		B9DE106E1CB5CAD300BE0335 /* HamburguesasXAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamburguesasXAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE10711CB5CAD400BE0335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9DE10731CB5CAD400BE0335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,7 @@
 		B9DE10781CB5CAD400BE0335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DE107B1CB5CAD400BE0335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9DE107D1CB5CAD400BE0335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9DE10831CB5CB2D00BE0335 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9961DD51CB6191F006A6A8A /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				B9961DD61CB61997006A6A8A /* PruebaColores.playground */,
+			);
+			name = Playground;
+			sourceTree = "<group>";
+		};
 		B9DE10651CB5CAD300BE0335 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +71,8 @@
 				B9DE10781CB5CAD400BE0335 /* Assets.xcassets */,
 				B9DE107A1CB5CAD400BE0335 /* LaunchScreen.storyboard */,
 				B9DE107D1CB5CAD400BE0335 /* Info.plist */,
+				B9DE10831CB5CB2D00BE0335 /* Datos.swift */,
+				B9961DD51CB6191F006A6A8A /* Playground */,
 			);
 			path = HamburguesasXAC;
 			sourceTree = "<group>";
@@ -136,6 +149,7 @@
 			files = (
 				B9DE10741CB5CAD400BE0335 /* ViewController.swift in Sources */,
 				B9DE10721CB5CAD400BE0335 /* AppDelegate.swift in Sources */,
+				B9DE10841CB5CB2D00BE0335 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +297,7 @@
 				B9DE10821CB5CAD400BE0335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
